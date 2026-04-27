@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: #0f172a;
+	color: #e2e8f0;
+}
+
+.container {
+	width: 90%;
+	max-width: 1100px;
+	margin: auto;
+}
+
+.topbar {
+	background: #020617;
+	padding: 15px 0;
+	position: sticky;
+	top: 0;
+}
+
+.topbar-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-weight: bold;
+}
+
+.nav a {
+	margin-left: 20px;
+	color: #94a3b8;
+}
+
+.nav a:hover {
+	color: #38bdf8;
+}
+
+.hero {
+	text-align: center;
+	padding: 100px 0;
+	background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+.hero h1 {
+	font-size: 48px;
+}
+
+.hero p {
+	color: #94a3b8;
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+.social-icons {
+	margin-top: 20px;
+}
+
+.social-icons a {
+	margin: 0 10px;
+	font-size: 20px;
+	color: #38bdf8;
+}
+
+.about, .skills, .contact {
+	padding: 80px 0;
+}
+
+.about {
+	background: #020617;
+}
+
+.skills {
+	background: #020617;
+}
+
+.skill-list span {
+	display: inline-block;
+	margin: 8px;
+	padding: 10px 15px;
+	background: #1e293b;
+	border-radius: 20px;
+}
+
+.contact form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 500px;
+}
+
+.contact input, .contact textarea {
+	padding: 12px;
+	border: none;
+	border-radius: 8px;
+	background: #1e293b;
+	color: white;
+}
+
+.contact button {
+	padding: 12px;
+	border: none;
+	background: #38bdf8;
+	color: black;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background: #020617;
+	color: #94a3b8;
+}
+
+@media (max-width: 768px) {
+	.hero h1 {
+		font-size: 32px;
+	}
+}
